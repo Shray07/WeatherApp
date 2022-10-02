@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="https://kit.fontawesome.com/9878c95b8d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9A-CWmqXzSiNyLtbX01bsS0CFXCXlsvzQPtUfQGn6pVFVWjIKAk8qACkjA6ThctuXYvU&usqp=CAU">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="mainCard">
+      <div class="logoDate">
+        <div id="input">
+          <input type="text" placeholder="Enter Location" id="location" />
+          <i class="fas fa-search-location" id="search"></i>
+        </div>
+        <div class="logo"></div>
+      </div>
+      <div class="dailyCard"></div>
+      <div class="map">
+        <iframe
+        id="gmap_canvas"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+      ></iframe>
+      </div>
+    </div>
+    <div class="week"></div>
+  </body>
+</html>
+
+<script src="index.js"></script>
